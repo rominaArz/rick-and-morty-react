@@ -2,14 +2,14 @@
 import { useEffect, useRef } from 'react'
 import './App.css'
 import UseFetch from './Hooks/UseFetch'
-import GetRandomNumber from './utils/GetRandomNumber'
+import getRandomNumber from './utils/getRandomNumber'
 import LocationInfo from './components/LocationInfo'
 import ResidentsCard from './components/ResidentsCard'
 import { useState } from 'react'
 
 function App() {
   
-  const [inputValue, setInputValue] = useState(GetRandomNumber(126))
+  const [inputValue, setInputValue] = useState(getRandomNumber(126))
 
   const url = `https://rickandmortyapi.com/api/location/${inputValue}`
   const [ location, getLocation, hasError ] = UseFetch(url)
