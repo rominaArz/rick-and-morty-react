@@ -1,0 +1,41 @@
+*{
+box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Carter One', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Monsieur La Doulaise', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Unbounded', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #072226ea;
+    
+}
+
+h1, h2, h3, ul, hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+input {
+    outline: none;
+    font-family: inherit;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
